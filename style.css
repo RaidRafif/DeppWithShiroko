@@ -1,0 +1,194 @@
+html {
+	margin: 0;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.header-container {
+	background-color: #5cd0d0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* position: fixed;
+	z-index: 9; */
+}
+
+.header-container a {
+	text-decoration: none;
+	color: white;
+}
+
+.header-leftBarContainer {
+	/* background-color: brown; */
+	display: flex;
+	align-items: center;
+}
+
+.header-leftBarContainer button {
+	height: fit-content;
+}
+
+.header-logoContainer {
+	/* background-color: antiquewhite; */
+	margin: 0.7em 4vw 0.7em 8vw;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	letter-spacing: 0.4em;
+}
+
+.header-logoContainer img {
+	/* background-color: greenyellow; */
+	margin-right: 0.5vw;
+	width: 60px;
+	display: flex;
+	align-items: center;
+}
+
+.header-logoAbydos {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.header-sourceBarContainer {
+	/* background-color: aliceblue; */
+}
+
+.header-rightBarContainer {
+	/* background-color: brown; */
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	margin: auto 8vw auto 0;
+	display: flex;
+	gap: 4vw;
+}
+
+/* Layer 1 Style */
+/* Layer 1 Style */
+/* Layer 1 Style */
+.layer1 {
+	background: url(img/BG_Abydos_Collection.png);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+
+.layer1-container {
+	width: 80%;
+	margin: 2vh;
+	display: flex;
+}
+
+.layer1-leftContainer {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.layer1-rightContainer {
+	margin: 0 auto 0 auto;
+	/* overflow: hidden; */
+}
+
+.layer1-rightContainer img {
+	width: 360px;
+}
+
+/* Layer 2 Style */
+/* Layer 2 Style */
+/* Layer 2 Style */
+.layer2 {
+	background: linear-gradient(#55c4c4, #5ad2ca);
+	/* background-attachment: scroll; */
+	display: flex;
+	justify-content: center;
+}
+
+.layer2-container {
+	margin: 5vh auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4vh;
+}
+
+.layer2-thingsContainer {
+	display: flex;
+	gap: 8vw;
+}
+
+.layer2-thing {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Layer 3 Style */
+/* Layer 3 Style */
+/* Layer 3 Style */
+.layer3 {
+	/* height: 1000px; */
+	background: url(img/After_Biking_Shiroko-resized.png);
+	background-size: cover;
+	/* background-attachment: fixed; */
+}
+
+.layer3-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.layer3-quoteContainer {
+	width: 80vw;
+	height: 100vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.layer4 {
+	background: linear-gradient(#6ca8da, #84c4ee);
+	/* background-attachment: scroll; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.layer4-container {
+	width: 80vw;
+	margin: 4vh auto;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	border: 2px solid black;
+	border-radius: 12px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer-container {
+	background: #53c9ba;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-textContainer a {
+	text-decoration: none;
+}
