@@ -1,3 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/kamishirasawa-sans');
+@font-face {
+	font-family: 'Kawashiro';
+	src: url(font/KawashiroGothic.ttf);
+}
+
 html {
 	margin: 0;
 	min-height: 100%;
@@ -5,6 +11,7 @@ html {
 
 body {
 	margin: 0;
+	font-family: 'Crimson Pro';
 }
 
 .header-container {
@@ -35,8 +42,8 @@ body {
 }
 
 .header-logoContainer {
-	/* background-color: antiquewhite; */
-	margin: 0.7em 4vw 0.7em 8vw;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 0.7em 2vw 0.7em 8vw;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -58,13 +65,18 @@ body {
 	font-size: 1.5em;
 }
 
-.header-sourceBarContainer {
-	/* background-color: aliceblue; */
+.sourceBtn {
+	background: #5cd0d0;
+	border-radius: 50%;
+	padding: 0.5em;
+}
+
+.sourceBtn img {
+	width: 1.5em;
 }
 
 .header-rightBarContainer {
-	/* background-color: brown; */
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Red Hat Display';
 	font-weight: 600;
 	margin: auto 8vw auto 0;
 	display: flex;
@@ -84,8 +96,13 @@ body {
 }
 
 .layer1-container {
+	background: rgba(0, 0, 0, 0.5);
+	border: 1px solid white;
+	border-radius: 0.5em;
 	width: 80%;
-	margin: 2vh;
+	color: white;
+	margin: 2em auto;
+	padding: 2em;
 	display: flex;
 }
 
@@ -95,6 +112,34 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.layer1-leftContainerTitle {
+	font-family: 'Kawashiro';
+	font-size: 2.2em;
+	margin: 0.8em auto;
+	text-align: center;
+	text-shadow: 0 0 0.8em rgb(255, 255, 255);
+}
+
+.layer1-leftContainerDescription {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.layer1-leftContainerButton {
+	background: rgba(34, 179, 211, 0.5);
+	padding: 0.9em;
+	margin: 1.2em;
+	border: 2px white solid;
+	border-radius: 2em;
+	font-family: 'Kawashiro';
+	text-align: center;
+}
+
+.layer1-leftContainerButton a {
+	text-decoration: none;
+	color: white;
 }
 
 .layer1-rightContainer {
@@ -112,6 +157,8 @@ body {
 .layer2 {
 	background: linear-gradient(#55c4c4, #5ad2ca);
 	/* background-attachment: scroll; */
+	font-family: 'Kamishirasawa Sans', sans-serif;
+	font-size: 1.2em;
 	display: flex;
 	justify-content: center;
 }
@@ -124,15 +171,29 @@ body {
 	gap: 4vh;
 }
 
+.layer2-title {
+	font-size: 1.5em;
+}
+
 .layer2-thingsContainer {
 	display: flex;
-	gap: 8vw;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .layer2-thing {
+	margin: auto 5vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.thingImage {
+	width: 10em;
+	height: 10em;
+	border: 0.2em solid brown;
+	border-radius: 0.8em;
+	object-fit: scale-down;
 }
 
 /* Layer 3 Style */
@@ -155,15 +216,26 @@ body {
 	width: 80vw;
 	height: 100vh;
 	color: white;
+	font-size: 2.2em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+.layer3-quoteFrom {
+	margin-top: 4vh;
+	font-size: 0.5em;
+}
+
+/* Layer 4 Style */
+/* Layer 4 Style */
+/* Layer 4 Style */
+
 .layer4 {
 	background: linear-gradient(#6ca8da, #84c4ee);
 	/* background-attachment: scroll; */
+	font-family: 'Red Hat Display';
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -177,12 +249,34 @@ body {
 	border: 2px solid black;
 	border-radius: 12px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
 }
 
+.layer4-linkContainer {
+	margin: 0 0.4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.layer4-link {
+	background: linear-gradient(#10616b, #103435);
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 6px 24px;
+	border: 2px solid white;
+	border-radius: 0.5em;
+}
+
+/* Footer Style */
+/* Footer Style */
+/* Footer Style */
+
 .footer-container {
-	background: #53c9ba;
+	background: linear-gradient(#58c4c6, #89d9da);
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 	display: flex;
