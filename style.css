@@ -1,7 +1,11 @@
-@import url('http://fonts.cdnfonts.com/css/kamishirasawa-sans');
 @font-face {
 	font-family: 'Kawashiro';
 	src: url(font/KawashiroGothic.ttf);
+}
+
+@font-face {
+	font-family: 'Kamishirasawa';
+	src: url(font/KamishirasawaSans.ttf);
 }
 
 html {
@@ -157,7 +161,7 @@ body {
 .layer2 {
 	background: linear-gradient(#55c4c4, #5ad2ca);
 	/* background-attachment: scroll; */
-	font-family: 'Kamishirasawa Sans', sans-serif;
+	font-family: 'Kamishirasawa', sans-serif;
 	font-size: 1.2em;
 	display: flex;
 	justify-content: center;
